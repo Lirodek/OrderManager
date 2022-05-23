@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     Manager thisManager = new Manager();
 
     private ArrayList<OrderMenu> orderMenuList = new ArrayList<OrderMenu>();
-
     private ArrayList<Manager> marketList = new ArrayList<Manager>();
 
     boolean loginCheck = false;
@@ -37,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+
         MainActivity.context = getApplicationContext();
     }
 
